@@ -1,0 +1,50 @@
+/*========================== Footer Wines Start =====================*/
+
+.wins_footer_main_wrapper {
+    background: #222;
+    	.footer_links-list{
+    		.social_icon{
+	    		.search_btn{
+		    		background-color: #4d0322 !important;
+		    		color: #fff !important;
+                        &:hover{
+                            background-color: #fff !important;
+                            color: #393939 !important;
+                        }
+		    	}
+	    		ul{
+		    		li{
+		    			a{
+		    				background-color: #393939 !important;
+		    				color: #fff !important;
+                                &:hover{
+                                    background-color: #fff !important;
+                                    color: #393939 !important;
+                                }
+		    			}
+		    		}
+		    	}
+	    	}
+             ul{
+              li{
+                a{
+                    &:hover{
+                        color: #ce8f5a;
+                    }
+                }
+              }
+             }
+    	}
+    	
+    	.bz_bottom_footer_main_wrapper{
+    		background-color: #4d0322;
+    		border-radius: 0;
+    			.copy_right{
+    				p{
+    					color: #fff;
+    				}
+    			}
+    	}
+}
+
+

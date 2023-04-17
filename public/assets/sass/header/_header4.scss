@@ -1,0 +1,409 @@
+/*======================== bz_fashion_header_main_wrapper start =======================*/
+
+.bz_wins_header_wrapper {
+	.furniture_top_header{
+		background: #fff;
+		border-bottom: 0;
+		padding: 15px 0px 15px;
+			.header_social_icon{
+				ul{
+					display: inline-block;
+    				float: left;
+					li{
+						display: inline-block;
+							a{
+							    
+							    display: inline-block;
+							    text-align: center;
+							    color: #111;
+							    border-radius: 50%;
+							    	&:hover{
+							    		color: #111;
+							    	}
+							}
+
+					}
+					li + li{
+						margin-left: 12px;
+					}
+				}
+				.help_no {
+				    float: left;
+				    padding-left: 15px;
+				    border-left: 1px solid #111;
+				    margin-left: 14px;
+				    	a{
+				    		color: #111;
+				    		font-size: 13px;
+				    		span{
+				    			display: inline-block;
+				    			padding-right: 12px;
+				    		}
+				    	}
+				}
+
+			}
+			.bz_right_side{
+				float: right;
+					ul{
+						li{
+							display: inline-block;
+    						padding: 0px 0px 0px 12px;
+    							a{
+    								display: inline-block;
+								    color: #111111;
+								    font-size: 14px;
+								    -webkit-transition: all 0.5s;
+								    -o-transition: all 0.5s;
+								    -ms-transition: all 0.5s;
+								    -moz-transition: all 0.5s;
+								    transition: all 0.5s;
+								    	span{
+								    		display: inline-block;
+    										padding-right: 12px;
+    										 svg{
+    										 	width: 17px;
+											    height: 17px;
+											    -webkit-transition: all 0.5s;
+											    -o-transition: all 0.5s;
+											    -ms-transition: all 0.5s;
+											    -moz-transition: all 0.5s;
+											    transition: all 0.5s;
+    										 }
+								    	}
+								    	&:hover{
+								    	 color:	#be641e;
+								    	 	span{
+								    	 		svg{
+								    	 			color:	#be641e;
+								    	 		}
+								    	 	}
+								    	}
+    							}
+						}
+						li + li{
+							border-left: 1px solid;
+						}
+						.language{
+							position: relative;
+							z-index: 99999;
+							padding-right: 12px;
+								.submenu{
+									width: 123px;
+								    text-align: left;
+								    position: absolute;
+								    background-color: #fff;
+								    z-index: 999;
+								    top: 36px;
+								    webkit-box-shadow: 1.236px 3.804px 8px 0px rgba(102, 101, 101, 0.48);
+								    box-shadow: 1.236px 3.804px 8px 0px rgba(102, 101, 101, 0.48);
+								    left: 0;
+								    webkit-transition: all 0.3s ease 0s;
+								    -o-transition: all 0.3s ease 0s;
+								    transition: all 0.3s ease 0s;
+								    visibility: hidden;
+								    opacity: 0;
+								    	a{
+								    		width: 100%;
+										    padding: 6px 13px;
+										    color: #111;
+										    	&:hover{
+										    		background-color: #111111;
+    												color: #fff;
+										    	}
+								    	}
+								}
+								&:hover{
+									.submenu{
+										visibility: visible;
+									    opacity: 1;
+									    webkit-transition: all 0.3s ease 0s;
+									    -o-transition: all 0.3s ease 0s;
+									    transition: all 0.3s ease 0s;
+									}
+								}
+						}
+					}
+			}
+	}
+	.pd_navigation_wrapper{
+		background: #fff;
+	    padding-bottom: 18px;
+	    z-index: 999;
+	    -webkit-box-shadow: 0px 5px 7px -5px rgba(0,0,0,0.25);
+	    box-shadow: 0px 5px 7px -5px rgba(0,0,0,0.25);
+
+		.pd_inner_navigation_wrapper{
+			ul{
+				li{
+					a{
+						color: #111;
+							&:hover{
+								color: #be641e !important;
+							}
+
+					}
+					ul{
+						li{
+							a{
+								&:hover{
+									color: #be641e !important;
+								}
+
+							}
+						}
+					}
+				}
+			}
+			.right_menu{
+				float: right;
+					li{
+						.search_bar{
+							.lv_search_bar{
+								color: #444;
+								font-size: 16px;
+								cursor: pointer;
+								a{
+									span{
+										svg{
+											width: 20px;
+										    height: 20px;
+										    fill: #111;
+										}
+									}
+									&:hover{
+										span{
+											svg{
+												fill: #be641e !important;
+											}
+										}
+									}
+								}
+							}
+							.lv_search_box {
+									position: absolute;
+									width: 270px;
+									top: 100%;
+									padding: 20px;
+									font-size: 16px;
+									display: inline-block;
+									border-top: 4px solid #111;
+									border-radius: 0px;
+									-webkit-box-shadow: 0px 2px 7px -3px rgba(0, 0, 0, 0.5);
+									-moz-box-shadow: 0px 2px 7px -3px rgba(0, 0, 0, 0.5);
+									-o-box-shadow: 0px 2px 7px -3px rgba(0, 0, 0, 0.5);
+									-ms-box-shadow: 0px 2px 7px -3px rgba(0, 0, 0, 0.5);
+									box-shadow: 0px 5px 8px -5px rgba(0, 0, 0, 0.5);
+									background-color: #ffffff;
+									display: none;
+									z-index: 1000;
+									right: 0;
+									input {
+										float: left;
+										color: #111111;
+										width: calc(100% - 45px);
+										padding: 0px 10px;
+										height: 45px;
+										border: 1px solid #e1e1e1;
+										border-top-left-radius: 30px;
+										border-bottom-left-radius: 30px;
+										border-right: 0px;
+									}
+									button {
+										width: 45px;
+										height: 45px;
+										border: 1px solid #e1e1e1;
+										border-left: none;
+										background-color: #fff;
+										color: #111;
+										text-align: center;
+										padding: 0px;
+										border-top-right-radius: 30px;
+								    	border-bottom-right-radius: 30px;
+										-webkit-transition: all 0.5s;
+										-o-transition: all 0.5s;
+										-ms-transition: all 0.5s;
+										-moz-transition: all 0.5s;
+										transition: all 0.5s;
+										&:hover {
+											color: #ffffff;
+											background: #cca334;
+											border-color: #cca334;
+											-webkit-transition: all 0.5s;
+											-o-transition: all 0.5s;
+											-ms-transition: all 0.5s;
+											-moz-transition: all 0.5s;
+											transition: all 0.5s;
+										}
+									}
+								}
+						}
+						.cart_shop{
+				    				
+				    				a{
+				    					svg{
+				    						width: 26px;
+				    						height: 26px;
+				    						fill: #111;
+				    					}
+				    					span{
+				    						display: inline-block;
+										    padding-left: 11px;
+										    color: #ce8f5a;
+										    line-height: 17px;
+										     small{
+										     	display: block;
+										     	color: #a6a6a4;
+										     }
+				    					}
+				    					&:hover{
+											
+												svg{
+													fill: #be641e !important;
+												}
+											
+										}
+				    				}
+				    				.cart_details{
+				    					position: absolute;
+									    z-index: 11;
+									    background-color: #fff;
+									    width: 311px;
+									    right: 0px;
+									    visibility: hidden;
+									    opacity: 0;
+									    padding: 12px 20px;
+									    -webkit-transition: all 0.5s;
+									    -o-transition: all 0.5s;
+									    -ms-transition: all 0.5s;
+									    -moz-transition: all 0.5s;
+									    transition: all 0.5s;
+									    transition: ease all 0.3s;
+									    top: calc(100% - 30px);
+									    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+									    	.total-count{
+									    		padding: 12px 0px;
+    											border-bottom: 1px solid #ccc;
+    												span{
+    													font-size: 14px;
+													    font-weight: 600;
+													    color: #111;
+													    text-transform: uppercase;
+    												}
+    												a{
+    													display: inline-block;
+													    float: right;
+													    font-size: 14px;
+													    font-weight: 600;
+													    color: #111;
+													    padding: 0;
+    												}
+									    	}
+									    	.cart_list{
+									    		width: 100%;
+											    float: left;
+											    padding: 18px 0px;
+											    border-bottom: 1px solid #ccc;
+											    	.select_cart{
+											    		padding: 12px 0px;
+													    width: 50%;
+													    float: left;
+													    	a{
+													    		display: inline-block;
+															    font-size: 14px;
+															    font-weight: 600;
+															    color: #111;
+															    padding: 0;
+													    	}
+													    	span{
+													    		display: block;
+															    color: #111;
+															    font-size: 15px;
+															    padding-top: 8px;
+													    	}
+											    	}
+											    	.select_img{
+											    		position: relative;
+											    			img{
+											    				width: 88px;
+    															float: right;
+											    			}
+											    			.close_btn{
+											    				position: absolute;
+															    right: 32px;
+															    top: 33px;
+															    cursor: pointer;
+															    	i{
+															    		color: #111;
+																	    background: #fff;
+																	    padding: 7px 8px;
+																	    font-size: 11px;
+																	    border-radius: 30px;
+															    	}
+											    			}
+											    	}
+
+									    	}
+									    	.sub_total{
+											    		width: 100%;
+    													float: left;
+    														p{
+    															color: #111111;
+															    padding: 12px 0px;
+															    text-transform: uppercase;
+															    font-size: 14px;
+															    font-weight: 600;
+    														}
+    														span{
+    															float: right;
+															    color: #111111;
+															    font-size: 16px;
+															    font-weight: 600;
+    														}
+											    	}
+											    	.cart_btn{
+											    		width: 100%;
+													    float: left;
+													    margin: 12px 0px;
+													    	a{
+													    	display: inline-block;
+														    padding: 6px 13px;
+														    background-color: #111111;
+														    color: #fff;
+														    border-radius: 24px;
+														    margin-left: 9px;
+														    	&:hover{
+														    		background-color: #ce8f5a;
+														    	}
+													    	}
+											    	}
+
+				    				}
+				    				&:hover{
+				    					.cart_details{
+				    						visibility: visible;
+										    opacity: 1;
+										    transition: ease all 0.3s;
+										    -webkit-transition: all 0.5s;
+										    -o-transition: all 0.5s;
+										    -ms-transition: all 0.5s;
+										    -moz-transition: all 0.5s;
+										    transition: all 0.5s;
+										    top: 120%;
+				    					}
+				    				}
+				    			}
+					}
+			}
+			.logo {
+			    text-align: center;
+			}
+		}
+		
+	}
+	.menu_fixed{
+		.logo {
+			    padding-top: 10px;
+			}
+	}
+}

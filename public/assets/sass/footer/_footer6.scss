@@ -1,0 +1,39 @@
+/*========================== Footer Leather Start =====================*/
+
+.bz_leather_footer_wrapper{
+	background: #333;
+		.footer_links-list{
+			.social_icon{
+				.footer_search{
+					.search_btn{
+						background-color: #be641e;
+						color: #fff;
+					}
+				}
+				ul{
+					li{
+						a{
+							background-color: #d6d6d6 !important;
+							color: #be641e !important;
+								&:hover{
+									color: #fff !important;
+									background-color: #be641e !important;
+
+								}
+						}
+					}
+				}
+			}
+			ul{
+				li{
+					a{
+						&:hover{
+							color: #be641e;
+						}
+
+					}
+				}
+			}
+		}
+}
+

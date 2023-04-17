@@ -1,0 +1,81 @@
+/*========================== Footer Furniture Start =====================*/
+
+.bz_furniture_footer{
+	background: #222;
+	padding-bottom: 80px;
+		.footer_links-list{
+			h3{
+				color: #ce8f5a;
+			    border-left: 2px solid #ce8f5a;
+			    font-weight: 500;
+			    padding-left: 6px;
+			}
+			ul{
+				padding-top: 40px;
+				li{
+					a{
+						opacity: 0.6;
+						 span{
+						 	display: inline-block;
+    						padding-right: 4px;
+						 }
+						 &:hover{
+						 	color: #fff;
+						 	opacity: 1;
+						 }
+					}
+				}
+			}
+			.information{
+				ul{
+					li{
+						a{
+							span{
+								width: 28px;
+								height: 24px;
+							}
+						}
+					}
+				}
+				h3{
+					margin-top: 15px;
+				}
+				.google_play{
+					padding-top: 20px;
+				}
+			}
+		}
+}
+
+.bz_furniture_bottom_footer{
+	background: #111;
+    padding: 20px 0px;
+	.copy_right{
+		float: left;
+			p{
+				color: #fff;
+				opacity: 0.6;
+			}
+	}
+	.card_pay{
+		float: right;
+			ul{
+				li{
+					display: inline-block;
+					vertical-align: top;
+						a{
+							font-size: 25px;
+								&:hover{
+									color: #fff;
+								}
+						}
+						p{
+							color: #fff;
+						}
+				}
+				li + li{
+					margin-left: 12px;
+				}
+			}
+	}
+}

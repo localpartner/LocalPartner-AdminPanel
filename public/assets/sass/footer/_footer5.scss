@@ -1,0 +1,49 @@
+/*========================== Footer Wines Start =====================*/
+
+.decorate_footer_main{
+	background: #222;
+	.footer_links-list{
+		.social_icon{
+			ul{
+				li{
+					a{
+						background: #393939;
+						color: #fff !important;
+						&:hover{
+							color: #fff !important;
+						}
+					}
+				}
+			}
+		}
+		.information{
+			ul{
+				li{
+					a{
+						&:hover{
+							color: #ffbb19;
+						}
+					}
+				}
+			}
+		}
+		ul{
+			li{
+				a{
+					&:hover{
+							color: #ffbb19 !important;
+						}
+				}
+			}
+		}
+	}
+	.bz_bottom_footer_main_wrapper{
+		background-color: #000;
+			.copy_right{
+				p{
+					color: #fff;
+				}
+			}
+	}
+}
+

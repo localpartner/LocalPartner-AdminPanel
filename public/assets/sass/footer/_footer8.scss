@@ -1,0 +1,28 @@
+/*========================== Footer Bags Start =====================*/
+
+.bz_bags_footer_wrapper{
+	.footer_links-list{
+		ul{
+			li{
+				a{
+					&:hover{
+						color: #ffb400;
+					}
+				}
+			}
+		}
+		.social_icon {
+		    padding-top: 15px;
+		    	ul{
+					li{
+						a{
+							&:hover{
+								color: #ffb400;
+							}
+						}
+					}
+				}
+		}
+	}
+}
+

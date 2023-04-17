@@ -1,0 +1,75 @@
+/*========================== Footer Cosmetics Start =====================*/
+
+.bz_cosmetics_footer{
+	background-color: #111;
+	padding: 100px 0px;
+		.footer_links-list{
+			h3{
+				text-transform: uppercase;
+			}
+			p{
+				padding-top: 30px;
+				opacity: 1;
+			}
+			.footer_social_icon{
+				ul{
+					padding-top: 25px;
+					li{
+						display: inline-block;
+							a{
+								background-color: #fff;
+							    width: 35px;
+							    height: 35px;
+							    display: inline-block;
+							    text-align: center;
+							    color: #111;
+							    line-height: 37px;
+							    border-radius: 50%;
+							    opacity: 1;
+							    -o-transition: all 0.5s;
+							    -ms-transition: all 0.5s;
+							    -moz-transition: all 0.5s;
+							    transition: all 0.5s;
+							    	&:hover{
+							    		-o-transition: all 0.5s;
+									    -ms-transition: all 0.5s;
+									    -moz-transition: all 0.5s;
+									    transition: all 0.5s;
+									    background-color: #f78bb9;
+							    	}
+							}
+					}
+					li + li{
+						margin-left: 12px;
+					}
+				}
+			}
+			.information{
+				padding-left: 50px;
+				ul{
+					padding-top: 35px;
+						li{
+							a{
+								opacity: 1;
+									&:hover{
+										opacity: 0.8;
+										color: #fff;
+									}
+							}
+						}
+				}
+			}
+		}
+}
+.bz_cosmetics_bottom_footer{
+	padding: 20px 0px;
+	background-color: #fff;
+		.copy_right{
+			text-align: center;
+				p{
+					color: #111;
+				}
+		}
+}
+
+

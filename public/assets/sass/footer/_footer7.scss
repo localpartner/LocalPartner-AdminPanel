@@ -1,0 +1,18 @@
+/*========================== Footer Shoes Start =====================*/
+
+.bz_shoes_footer_wrapper{
+	.footer_links-list{
+		.social_icon{
+			padding-top: 18px;
+		}
+		ul{
+			li{
+				a{
+					&:hover{
+						color: #1cbbb4;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,70 @@
+/*======================== bz_leather_header_wrapper start =======================*/
+
+.bz_leather_header_wrapper{
+	.pd_navigation_wrapper{
+		padding-bottom: 0px;
+		.pd_inner_navigation_wrapper{
+			.logo{
+				text-align: left;
+				padding-top: 8px;
+			}
+			.my_nav {
+			    max-width: 490px;
+			    margin: 0 auto;
+			    width: 100%;
+			    float: right;
+			    text-align: right;
+			    	li{
+			    		a{
+			    			&:hover{
+			    				color: #be641e;
+			    			}
+			    		}
+			    		ul{
+			    			li{
+			    				a{
+			    					&:hover{
+			    						color: #be641e !important;
+			    					}
+			    				}
+			    			}
+			    		}
+			    	}
+			}
+			.right_menu{
+				li{
+					a{
+						&:hover{
+							color: #be641e !important;
+								span{
+									svg{
+										fill: #be641e !important;
+									}
+								}
+						}
+
+					}
+					.cart_shop{
+						a{
+							&:hover{
+								svg{
+									fill: #be641e !important;
+								}
+							}
+						}
+						.cart_btn{
+							a{
+								&:hover{
+									background-color: #be641e !important;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+	}
+}
+
+  
